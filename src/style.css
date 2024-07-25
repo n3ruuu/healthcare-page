@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serifs;
+}
+
+body {
+    background: url(./images/bg.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: white;
+}
